@@ -11,13 +11,13 @@
 def hello(first_name, last_name, age):
 	print("Hello! " + first_name + " " + last_name)
 	print("Have a nice day!")
-	print("Your have " + age + "years old")
+	print("You are " + str(age) + " years old") # para mostrar esse valor integer, você tem que convertê-lo para string
 
 	# podemos enviar a nossa function algumas informações e ela poderá fazer alguma coisa com
-	# essas informações, então só listar os dados que deseja enviar, dentro dos parênteses da função
+	# essas informações, então só listar os dados que deseja enviar, dentro dos parênteses da function
 # para chamar sua function, só escrever o nome dela e colocar parentêses 
 # hello("roh") # adcione o argumento que quiser como parâmetro
-# my_name = "roh" # pode se criar a variável e chama-la na função
+# my_name = "roh" # pode se criar a variável e chama-la na function
 # hello(my_name) # a variável não precisa ter o mesmo nome do parâmetro
 
 # você pode lançar dois ou mais argumentos, contanto que a function, esteja projetada para
